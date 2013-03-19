@@ -1,7 +1,7 @@
 task :default => :server
 
 task :server do 
-  sh 'jekyll --server'
+  sh 'jekyll --auto --safe --server'
 end
 
 task :build do
